@@ -14,16 +14,16 @@
 
 <body>
     <header class="header">
-        <h1><img src="./assets/images/imr-icon.png" alt="Icon with Initials" id="icon"/> ISRAEL RIOS</h1>
+        <h1 href="http://israelmrios.github.io/"><img src="./assets/images/imr-icon.png" alt="Icon with Initials" id="icon">ISRAEL RIOS</h1>
         <nav>
             <ul>
-                <li>
+                <li class="code">
                     <a href="#about">About</a>
                 </li>
-                <li>
+                <li class="code">
                     <a href="#portfolio">Portfolio</a>
                 </li>
-                <li>
+                <li class="code">
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
@@ -34,51 +34,58 @@
 
     <main>
         <section id="about">
-            <p>(Junior) Front-end Developer with a Bachelor's Degree in Information Management and in the process of completing a Certificate in Full Stack Development. Currently employed at Entegral which offers configurable, data-driven software to the automotive industry. I’ve completed courses in:</p>
-            <ul>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>jQuery</li>
-                <li>Bootstrap</li>
-                <li>Node.js</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>Express.js</li>
-                <li>React.js</li>
-            </ul>
-            <h1> About</h1>
+            <h1 class="main-headers"> About</h1>
+            <div class="container">
+                <a>
+                    <p>(Junior) Front-end Developer with a Bachelor's Degree in Information Management and in the process of completing a Certificate in Full Stack Development. Currently employed at Entegral which offers configurable, data-driven software to the automotive industry. I’ve completed courses in:
+                    </p>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Node.js</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Express.js</li>
+                        <li>React.js</li>
+                    </ul>
+                </a>
+            </div>            
         </section>
-        <section id="portfolio" class="row">
-            <div>
-                <figure>
-                    <img src="./assets/images/application-after-html-css-edits.png" alt="Image of First Application" class="large-img" />
-                </figure>
-                <h2>Accessibility Standards Application</h2>
-            </div>
-            <div>
-                <figure>
-                    <img src="./assets/images/project-2.png" alt="Image of Second Application" class="small-img" />
-                </figure>
-                <h2>Project 2</h2>
-            </div>
-            <div>
-                <figure>
-                    <img src="./assets/images/project-3.png" alt="Image of Third Application" class="small-img" />
-                </figure>
-                <h2>Project 3</h2>
-            </div>
+
+        <section id="portfolio">
+            <h1 class="main-headers">Portfolio</h1>
+            <div class="container work">
+                <a href="https://lafc2018.github.io/Homework-Assignment-1/" target="_blank" class="items large-img code-box">
+                    <figure>
+                        <h2 class="container-h2">Accessibility Standards Application</h2>
+                    </figure>
+                </a>
+                <a href="#" class="items project-2 code-box">
+                    <figure>
+                        <h2 class="container-h2">Project 2</h2>
+                    </figure>
+                </a>
+                <a href="#" class="items project-3 code-box">
+                    <figure>
+                        <h2 class="container-h2">Project 3</h2>
+                    </figure>
+                </a>
+            </div>            
         </section>
-        <h1>Portfolio</h1>
+        
         <section id="contact">
-            <p>I am going to enter my contact information here.</p>
-            <h1>Contact</h1>
+            <h1 class="main-headers">Contact</h1>
+            <div class="container" id="justifi-contact">
+                <a class="code">IsraelM.RiosJr@gmail.com</a>
+                <a class="code">951.496.2702</a>
+                <a href="https://www.linkedin.com/in/israel-m-rios-jr-93a81a38/" target="_blank" class="code">LinkedIn</a>
+                <a href="https://github.com/israelmrios" target="_blank" class="code">GitHub</a>
+            </div>            
         </section>
     </main>
-
-<!--  <aside class="scroll-down">  -->
-<!--  <h3>Scroll Down</h3> -->
-<!--  </aside>  -->
 
     <footer>
 
