@@ -1,0 +1,144 @@
+* {
+/*    border: 1px red solid; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 1px dashed red;
+    outline-offset: 2px;
+    margin: 2px;
+}
+
+:root {
+    --portfolio-black: #050505;
+    --charcoal-gray: #3b3531;
+    --portfolio-white: #F1F1F1;
+    --portfolio-gray: #A1A1A1;
+}
+
+#icon {
+    height: 38px;
+    float: left;
+    margin-right: 10px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/ep_naturalblack.png");
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Francois One', sans-serif;
+    color: var(--portfolio-white);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 38px;
+}
+
+.header nav {
+    float: right;
+    font-family: 'Francois One', sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--portfolio-gray);
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    color: var(--portfolio-white);
+}
+
+.self-image {
+    height: 700px;
+    width: 95%;
+/*    margin-bottom: 25px;*/
+    background-image: url("../images/self-image-fed.png");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    padding: 20px;
+}
+
+main section {
+    display: block;
+    padding: 20px;
+    height: 700px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+main section h1 {
+    display: flex;
+    align-items: flex-end;
+    font-size: 60px;
+    padding: 20px;
+    color: var(--portfolio-gray);
+    font-family: 'Francois One', sans-serif;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+main section p {
+    padding: 60px 20px;
+    font-size: larger;
+}
+
+main section ul {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap column;
+    align-items: center;
+    color: var(--portfolio-white);
+    list-style-type: circle;
+}
+
+main li {
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.large-img {
+    width: 100%;
+    height: 350px;
+}
+
+.small-img {
+    width: 50%;
+    height: 250px;
+}
+
+aside {
+    font: bold 12px sans-serif;
+    text-transform: uppercase;
+    color: var(--portfolio-white);
+    padding: 20px;
+    transform: rotate(90deg);
+    width: 100%;
+    height: 20%;
+}
