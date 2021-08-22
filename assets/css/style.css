@@ -8,6 +8,7 @@
     margin: 2px;
 }
 
+/* I used set variable colors to keep the theme consistent */
 :root {
     --portfolio-black: #050505;
     --charcoal-gray: #3b3531;
@@ -20,6 +21,10 @@
     color: var(--charcoal-gray);
 }
 
+html {
+    font-size: 1rem;
+}
+
 #icon {
     height: 38px;
     float: left;
@@ -27,6 +32,7 @@
 }
 
 body {
+    font-size: 1rem;
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
@@ -40,7 +46,7 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 38px;
+    font-size: 2.5rem;
     color: var(--portfolio-white);
 }
 
@@ -48,7 +54,7 @@ body {
     float: right;
     font-family: 'Francois One', sans-serif;
     font-variant: small-caps;
-    font-size: 20px;
+    font-size: 2rem;
     padding-top: 10px;
 }
 
@@ -75,8 +81,7 @@ a {
 }
 
 .self-image {
-    height: 700px;
-    width: 95%;
+    height: 44rem;
     background-image: url("../images/self-image-fed.png");
     background-size: cover;
     background-position: center;
@@ -86,12 +91,12 @@ main {
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
+    font-size: 1.75rem;
 }
 
 main section p {
     padding: 60px 20px;
     font-family: 'Open Sans', sans-serif;
-    font-size: larger;
     color: var(--portfolio-white);
     font-weight: normal;
     text-align: center;
@@ -111,7 +116,7 @@ main li {
 }
 
 .main-headers {
-    font-size: 60px;
+    font-size: 3.75rem;
     text-align: left;
     color: var(--portfolio-gray);
     font-family: 'Francois One', sans-serif;
@@ -142,7 +147,7 @@ main li {
     background-color: var(--portfolio-gray);
     flex-basis: calc(50% - 1em);
     border: 3px solid var(--portfolio-white);
-    margin: 8px;
+    margin: 14px;
 }
 
 .items:first-child {
@@ -151,13 +156,13 @@ main li {
 }
 
 .large-img {
-    background-image: url('../images/application-after-html-css-edits.png');
+    background-image: url("../images/application-after-html-css-edits.png");
     background-size: cover;
     background-position: top;
 }
 
 .project-2 {
-    background-image: url(#);
+    background-image: url("../images/hi-tech-1.jpg");
     background-size: cover;
     background-position: top;
     width: 50%;
@@ -165,9 +170,9 @@ main li {
 }
 
 .project-3 {
-    background-image: url(#);
+    background-image: url("../images/hi-tech-2.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     width: 50%;
     height: 250px;
 }
@@ -175,7 +180,7 @@ main li {
 .container-h2 {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--portfolio-black);
-    font-size: x-large;
+    font-size: 1.25rem;
     margin: 0px 0px 10px 10px;
     border: 3px solid var(--portfolio-white);
     padding: 5px;
@@ -185,7 +190,37 @@ main li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: xx-large;
     min-height: 400px;
     font-family: 'Francois One', sans-serif;
+}
+
+footer {
+    color: var(--portfolio-white);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .self-image {
+        height: 22rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-2 {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-3 {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+    }
 }
