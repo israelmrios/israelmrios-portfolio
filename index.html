@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8" />
+<!-- Added Viewport to allow Media Queries to work -->
     <meta name="viewport" content="width=device-width initial-scale=1">
     <title>Israel Rios | Front-end Developer</title>
+<!-- Linked Google Fonts to enable the use of custom fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -14,10 +16,12 @@
 
 <body>
     <header class="header">
-        <h1 href="http://israelmrios.github.io/"><img src="./assets/images/imr-icon.png" alt="Icon with Initials" id="icon">ISRAEL RIOS</h1>
+        <h1><img src="./assets/images/imr-icon.png" alt="Icon with Initials" id="icon">ISRAEL RIOS</h1>
         <nav>
             <ul>
+<!-- Created Code Class to enable a hoover glow to any font with that class -->
                 <li class="code">
+<!-- Used inline CSS IDs to allow the UI to auto scroll to any specific section -->
                     <a href="#about">About</a>
                 </li>
                 <li class="code">
@@ -29,7 +33,8 @@
             </ul>
         </nav>
     </header>
-    
+
+<!-- Using the Figure container to add an image as the background since we want it to take the entire viewable window -->
     <figure class="self-image"></figure>
 
     <main>
@@ -40,9 +45,10 @@
                     <p>(Junior) Front-end Developer with a Bachelor's Degree in Information Management and in the process of completing a Certificate in Full Stack Development. Currently employed at Entegral which offers configurable, data-driven software to the automotive industry. I’ve completed courses in:
                     </p>
                     <ul>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
+<!-- Added this specific class to distinguish the completed courses, just a personal style -->
+                        <li class="completed">JavaScript</li>
+                        <li class="completed">HTML</li>
+                        <li class="completed">CSS</li>
                         <li>jQuery</li>
                         <li>Bootstrap</li>
                         <li>Node.js</li>
@@ -57,12 +63,16 @@
 
         <section id="portfolio">
             <h1 class="main-headers">Portfolio</h1>
+<!-- Added this <div to contain the work in a flex wrap, in order to make it responsive -->
             <div class="container work">
+<!-- Added target to allow the browser to open link in a new tab -->
+<!-- Created Code-Box Class to enable a hoover glow to any box with that class -->
                 <a href="https://lafc2018.github.io/Homework-Assignment-1/" target="_blank" class="items large-img code-box">
                     <figure>
                         <h2 class="container-h2">Accessibility Standards Application</h2>
                     </figure>
                 </a>
+<!-- Added # as a placeholder to easily add the address for future projects -->
                 <a href="#" class="items project-2 code-box">
                     <figure>
                         <h2 class="container-h2">Project 2</h2>
@@ -79,7 +89,7 @@
         <section id="contact">
             <h1 class="main-headers">Contact</h1>
             <div class="container" id="justifi-contact">
-                <a class="code">IsraelM.RiosJr@gmail.com</a>
+                <a href="mailto:israelm.riosjr@gmail.com" class="code">IsraelM.RiosJr@gmail.com</a>
                 <a class="code">951.496.2702</a>
                 <a href="https://www.linkedin.com/in/israel-m-rios-jr-93a81a38/" target="_blank" class="code">LinkedIn</a>
                 <a href="https://github.com/israelmrios" target="_blank" class="code">GitHub</a>

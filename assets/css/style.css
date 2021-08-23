@@ -1,11 +1,11 @@
 * {
-/*    border: 1px red solid; */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* outline: 1px dashed red;
-    outline-offset: 2px; */
     margin: 2px;
+/* Used the following properties to enable a red outline around any element to help me identify what changes I'm making */
+    /* outline: 1px dashed red; */
+    /* outline-offset: 2px; */
 }
 
 /* I used set variable colors to keep the theme consistent */
@@ -16,11 +16,7 @@
     --portfolio-gray: #A1A1A1;
 }
 
-::selection {
-    background-color: var(--portfolio-white);
-    color: var(--charcoal-gray);
-}
-
+/* Used the html selector to set the pages standard rem size */
 html {
     font-size: 1rem;
 }
@@ -72,6 +68,7 @@ a {
     text-decoration: none;
 }
 
+/* Used Hover Pseudocode to enable a glow effect when hovering over the particular effect */
 .code:hover {
     text-shadow: 2px 2px 5px var(--portfolio-gray);
 }
@@ -102,17 +99,17 @@ main section p {
     text-align: center;
 }
 
-main section ul {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: wrap column;
-    align-items: center;
+main li {
+    padding: 5px;
+    margin-left: 45%;
     color: var(--portfolio-white);
     list-style-type: circle;
 }
 
-main li {
-    padding: 5px;
+/* Created a Class with Disc type to show the completed course from the UL */
+.completed {
+    list-style-type: disc;
+    color: var(--portfolio-white);
 }
 
 .main-headers {
@@ -134,10 +131,6 @@ main li {
     padding: 5px;
 }
 
-.container > .work {
-    flex: 0 0 70%;
-}
-
 .items {
     min-height: 120px;
     min-width: 120px;
@@ -150,6 +143,7 @@ main li {
     margin: 14px;
 }
 
+/* Used First-Child Pseudocode to enable the first image to be bigger */
 .items:first-child {
     min-height: 350px;
     flex-basis: 100%;
@@ -199,24 +193,28 @@ footer {
     text-align: center;
 }
 
+/* Used this Media Queries to make the Self-Image smaller when the screen drops below 768px */
 @media (max-width: 768px) {
     .self-image {
         height: 22rem;
     }
 }
 
+/* Used this Media Queries to make the Project 2 bigger when the screen drops below 768px */
 @media (max-width: 768px) {
     .project-2 {
         flex-basis: 100%;
     }
 }
 
+/* Used this Media Queries to make the Project 3 bigger when the screen drops below 768px */
 @media (max-width: 768px) {
     .project-3 {
         flex-basis: 100%;
     }
 }
 
+/* Used this Media Queries to make the Header and Nav more responsive when the screen drops below 768px */
 @media (max-width: 768px) {
     .header {
         display: flex;
