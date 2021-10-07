@@ -150,13 +150,13 @@ main li {
 }
 
 .large-img {
-    background-image: url("../images/application-after-html-css-edits.png");
+    background-image: url("../images/Movie-Finder-App.png");
     background-size: cover;
     background-position: top;
 }
 
 .project-2 {
-    background-image: url("../images/hi-tech-1.jpg");
+    background-image: url("../images/Weather-Dashboard-App.png");
     background-size: cover;
     background-position: top;
     width: 50%;
@@ -164,9 +164,9 @@ main li {
 }
 
 .project-3 {
-    background-image: url("../images/hi-tech-2.jpg");
+    background-image: url("../images/Work-Day-Scheduler-App.png");
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     width: 50%;
     height: 250px;
 }
