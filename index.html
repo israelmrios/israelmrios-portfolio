@@ -9,7 +9,8 @@
 <!-- Linked Google Fonts to enable the use of custom fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f644273d0c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
@@ -35,14 +36,25 @@
     </header>
 
 <!-- Using the Figure container to add an image as the background since we want it to take the entire viewable window -->
-    <figure class="self-image"></figure>
+    
 
     <main>
+        <section class="self-image-cont">
+            <div>
+                <figure class="self-image"></figure>
+            </div>
+            <div>
+                <h1 class="title-headers-1">Full-Stack</h1>
+                <h1 class="title-headers-2">Software Engineer</h1>
+                <h1 class="title-headers-3">HTML / CSS / JavaScript</h1>
+            </div>
+        </section>
+
         <section id="about">
             <h1 class="main-headers"> About</h1>
             <div class="container">
                 <a>
-                    <p>(Junior) Front-end Developer with a Bachelor's Degree in Information Management and in the process of completing a Certificate in Full Stack Development. Currently employed at Entegral which offers configurable, data-driven software to the automotive industry. I’ve completed courses in:
+                    <p>Software Engineer with a Certificate in Full-Stack Development and a Bachelor's Degree in Information Management. Recent experience in JavaScript, CSS, Node.js, React.js, and responsive web design. Also have experience and knowledge in business administration & information systems. Detail oriented and hard working teammates focused on completing projects on time and above expectation. Applied aspects of UX and agile development in a recent project where I collaborated in a team of four to develop a single-page app that helps users find movies on different streaming services and provides a description of that movie. I am looking forward to making a difference utilizing my skill sets and experience in a full application lifecycle.
                     </p>
                     <ul>
 <!-- Added this specific class to distinguish the completed courses, just a personal style -->
@@ -67,18 +79,18 @@
             <div class="container work">
 <!-- Added target to allow the browser to open link in a new tab -->
 <!-- Created Code-Box Class to enable a hoover glow to any box with that class -->
-                <a href="https://israelmrios.github.io/Movie-Finder/" target="_blank" class="items large-img code-box">
+                <a href="https://israelmrios.github.io/Movie-Finder/" href="https://github.com/israelmrios/Movie-Finder.git" target="_blank" class="items large-img code-box">
                     <figure>
                         <h2 class="container-h2">Movie Finder Application</h2>
                     </figure>
                 </a>
 <!-- Added # as a placeholder to easily add the address for future projects -->
-                <a href="https://israelmrios.github.io/Weather-Dashboard/" target="_blank" class="items project-2 code-box">
+                <a href="https://israelmrios.github.io/Weather-Dashboard/" href="https://github.com/israelmrios/Weather-Dashboard.git" target="_blank" class="items project-2 code-box">
                     <figure>
                         <h2 class="container-h2">Weather Dashboard Application</h2>
                     </figure>
                 </a>
-                <a href="https://israelmrios.github.io/Work-Day-Scheduler/" target="_blank" class="items project-3 code-box">
+                <a href="https://israelmrios.github.io/Work-Day-Scheduler/" href="https://github.com/israelmrios/Work-Day-Scheduler.git" target="_blank" class="items project-3 code-box">
                     <figure>
                         <h2 class="container-h2">Work Day Scheduler Application</h2>
                     </figure>
@@ -88,11 +100,21 @@
         
         <section id="contact">
             <h1 class="main-headers">Contact</h1>
-            <div class="container" id="justifi-contact">
-                <a href="mailto:israelm.riosjr@gmail.com" class="code">IsraelM.RiosJr@gmail.com</a>
-                <a class="code">951.496.2702</a>
-                <a href="https://www.linkedin.com/in/israel-m-rios-93a81a38/" target="_blank" class="code">LinkedIn</a>
-                <a href="https://github.com/israelmrios" target="_blank" class="code">GitHub</a>
+            <div class="contact-div">
+                <div class="info-style">
+                    <a href="mailto:israelm.riosjr@gmail.com" class="code">IsraelM.RiosJr@GMail.com</a>
+                    <a class="code">951.496.2702</a>
+                </div>
+                <div class="info-style">
+                    <a href="https://www.linkedin.com/in/israel-m-rios-93a81a38/" target="_blank" class="code"><i class="fab fa-linkedin-in fa-3x"></i></a>
+                    <a href="https://github.com/israelmrios" target="_blank" class="code"><i class="fab fa-github fa-3x"></i></a>
+                    <a href="./assets/images/Israel Rios' Resume.pdf" target="_blank" class="code">
+                        <span class="resume">
+                            <i class="far fa-file-pdf fa-2x"></i>
+                            <span>Resume</span>
+                        </span>
+                    </a>
+                </div>
             </div>            
         </section>
     </main>

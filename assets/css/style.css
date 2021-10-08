@@ -78,10 +78,47 @@ a {
 }
 
 .self-image {
-    height: 44rem;
-    background-image: url("../images/self-image-fed.png");
+    height: 30rem;
+    width: 30rem;
+    background-image: url("../images/self-image-fed-2.png");
     background-size: cover;
     background-position: center;
+}
+
+.self-image-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    height: 80vh;
+    gap: 20px;
+}
+
+.title-headers-1 {
+    font-size: 401%;
+    text-align: center;
+    color: var(--portfolio-white);
+    font-family: 'Francois One', sans-serif;
+    font-variant: small-caps;
+}
+
+.title-headers-2 {
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+    color: var(--portfolio-white);
+    font-family: 'Open Sans', sans-serif;
+    font-variant: small-caps;
+}
+
+.title-headers-3 {
+    font-size: 160%;
+    font-weight: 300;
+    text-align: center;
+    color: var(--portfolio-gray);
+    font-family: 'Open Sans', sans-serif;
+    font-variant: small-caps;
 }
 
 main {
@@ -145,7 +182,7 @@ main li {
 
 /* Used First-Child Pseudocode to enable the first image to be bigger */
 .items:first-child {
-    min-height: 350px;
+    min-height: 450px;
     flex-basis: 100%;
 }
 
@@ -160,7 +197,7 @@ main li {
     background-size: cover;
     background-position: top;
     width: 50%;
-    height: 250px;
+    height: 350px;
 }
 
 .project-3 {
@@ -168,7 +205,7 @@ main li {
     background-size: cover;
     background-position: top;
     width: 50%;
-    height: 250px;
+    height: 350px;
 }
 
 .container-h2 {
@@ -180,9 +217,23 @@ main li {
     padding: 5px;
 }
 
-#justifi-contact {
+.info-style {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 400px;
     font-family: 'Francois One', sans-serif;
@@ -194,9 +245,27 @@ footer {
 }
 
 /* Used this Media Queries to make the Self-Image smaller when the screen drops below 768px */
+
+@media (max-width: 990px) {
+    .self-image-cont {
+        flex-direction: column;
+        height: 70vh;
+    }
+}
+
 @media (max-width: 768px) {
     .self-image {
-        height: 22rem;
+        height: 15rem;
+        width: 15rem;
+    }
+    .title-headers-1 {
+        font-size: 201%;
+    }
+    .title-headers-2 {
+        font-size: 99%;
+    }
+    .title-headers-3 {
+        font-size: 77%;
     }
 }
 
@@ -220,5 +289,20 @@ footer {
         display: flex;
         flex-flow: wrap column;
         align-items: center;
+    }
+    html {
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .info-style {
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+    }
+
+    .contact-div {
+        gap: 3rem;
     }
 }
