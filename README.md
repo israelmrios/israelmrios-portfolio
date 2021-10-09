@@ -2,24 +2,29 @@
 
 ![I am GitHub Readme Generator's creator](./assets/images/self-image-banner.png)
 
-I'm Israel a current sudent in The Coding Boot Camp at UCR Extension. I have a Bachelor's Degree in Information Management and I'm really excited and motivated to enter the web development field. 
-
-I have a lot of experianse in technology and currently hold a possition as a Support Analyst. I have recent experiance in HTML, CSS, and JavaScrip. I've taken that experianced and created the following Profile Site.
+Software Engineer with a Certificate in Full-Stack Development and a Bachelor's Degree in Information Management. Recent experience in JavaScript, CSS, Node.js, React.js, and responsive web design. Also have experience and knowledge in business administration & information systems. Detail oriented and hard working teammates focused on completing projects on time and above expectation. Applied aspects of UX and agile development in a recent project where I collaborated in a team of four to develop a single-page app that helps users find movies on different streaming services and provides a description of that movie. I am looking forward to making a difference utilizing my skill sets and experience in a full application lifecycle.
 
 ## Examples of Work
 
-[![portfolio demo](./assets/images/portfolio-page-demo.gif)](https://israelmrios.github.io/israelmrios/)
-> **Note**: Click the image to open the Portfolio Site&mdash;
+[![Movie Finder Demo](./assets/images/Movie-Finder-App.png)](https://israelmrios.github.io/Movie-Finder/)
+> **Note**: You can find the Movie Finder Application here&mdash; https://israelmrios.github.io/Movie-Finder/
 
-[![Accessibility Standards Application](./assets/images/horiseon-webpage-demo.gif)](https://lafc2018.github.io/Homework-Assignment-1/)
-> **Note**: Click the image to open the Application Site&mdash;
+[![Weather Dashboard Application](./assets/images/weather-dashboard-demo.gif)](https://israelmrios.github.io/Weather-Dashboard/)
+> **Note**: You can find the Weather Dashboard Application here&mdash; https://israelmrios.github.io/Weather-Dashboard/
+
+[![Work Day Scheduler Application](./assets/images/Work-Day-Scheduler-Demo.gif)](https://israelmrios.github.io/Work-Day-Scheduler/)
+> **Note**: You can find the Work Day Scheduler Application here&mdash; https://israelmrios.github.io/Work-Day-Scheduler/
 
 ## Skills
 
 ```
+* JavaScript
 * HTML
 * CSS
-* JavaScript
+* jQuery
+* Bootstrap
+* Node.js
+* GitHub
 ```
 
 ## Contact Me
