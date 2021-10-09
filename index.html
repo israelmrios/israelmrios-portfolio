@@ -3,16 +3,21 @@
 
 <head>
     <meta charset="UTF-8" />
-<!-- Added Viewport to allow Media Queries to work -->
+    <!-- Added Viewport to allow Media Queries to work -->
     <meta name="viewport" content="width=device-width initial-scale=1">
     <title>Israel Rios | Front-end Developer</title>
-<!-- Linked Google Fonts to enable the use of custom fonts -->
+    <!-- Linked Google Fonts to enable the use of custom fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:wght@300;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/f644273d0c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/reset.css"/>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link href="css/theme/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/jquery-ui.icon-font.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
@@ -20,9 +25,9 @@
         <h1><img src="./assets/images/imr-icon.png" alt="Icon with Initials" id="icon">ISRAEL RIOS</h1>
         <nav>
             <ul>
-<!-- Created Code Class to enable a hoover glow to any font with that class -->
+                <!-- Created Code Class to enable a hoover glow to any font with that class -->
                 <li class="code">
-<!-- Used inline CSS IDs to allow the UI to auto scroll to any specific section -->
+                    <!-- Used inline CSS IDs to allow the UI to auto scroll to any specific section -->
                     <a href="#about">About</a>
                 </li>
                 <li class="code">
@@ -31,12 +36,12 @@
                 <li class="code">
                     <a href="#contact">Contact</a>
                 </li>
+                <li class="code">
+                    <a href="./assets/images/Israel Rios' Resume.pdf" target="_blank" class="code">Resume</a>
+                </li>
             </ul>
         </nav>
     </header>
-
-<!-- Using the Figure container to add an image as the background since we want it to take the entire viewable window -->
-    
 
     <main>
         <section class="self-image-cont">
@@ -46,58 +51,68 @@
             <div>
                 <h1 class="title-headers-1">Full-Stack</h1>
                 <h1 class="title-headers-2">Software Engineer</h1>
-                <h1 class="title-headers-3">HTML / CSS / JavaScript</h1>
+                <!-- <h1 class="title-headers-3">HTML / CSS / JavaScript</h1> -->
             </div>
         </section>
 
         <section id="about">
-            <h1 class="main-headers"> About</h1>
+            <h1 class="main-headers">About</h1>
             <div class="container">
-                <a>
-                    <p>Software Engineer with a Certificate in Full-Stack Development and a Bachelor's Degree in Information Management. Recent experience in JavaScript, CSS, Node.js, React.js, and responsive web design. Also have experience and knowledge in business administration & information systems. Detail oriented and hard working teammates focused on completing projects on time and above expectation. Applied aspects of UX and agile development in a recent project where I collaborated in a team of four to develop a single-page app that helps users find movies on different streaming services and provides a description of that movie. I am looking forward to making a difference utilizing my skill sets and experience in a full application lifecycle.
-                    </p>
-                    <ul>
-<!-- Added this specific class to distinguish the completed courses, just a personal style -->
-                        <li class="completed">JavaScript</li>
-                        <li class="completed">HTML</li>
-                        <li class="completed">CSS</li>
-                        <li class="completed">jQuery</li>
-                        <li class="completed">Bootstrap</li>
-                        <li class="completed">Node.js</li>
-                        <li>MySQL</li>
-                        <li>MongoDB</li>
-                        <li>Express.js</li>
-                        <li>React.js</li>
-                    </ul>
-                </a>
-            </div>            
+                <p>Software Engineer with a Certificate in Full-Stack Development and a Bachelor's Degree in
+                    Information Management. Recent experience in JavaScript, CSS, Node.js, React.js, and responsive
+                    web design. Also have experience and knowledge in business administration & information systems.
+                    Detail oriented and hard working teammates focused on completing projects on time and above
+                    expectation. Applied aspects of UX and agile development in a recent project where I
+                    collaborated in a team of four to develop a single-page app that helps users find movies on
+                    different streaming services and provides a description of that movie. I am looking forward to
+                    making a difference utilizing my skill sets and experience in a full application lifecycle.
+                </p>
+            </div>
+            <h1 class="main-headers">Technical Skills</h1>
+            <div>
+                <div class="completed">
+                    <a class="skills"><i class="fab fa-js"></i> JavaScript</a>
+                    <a class="skills"><i class="fab fa-html5"></i> HTML</a>
+                    <a class="skills"><i class="fab fa-css3"></i> CSS</a>
+                    <a class="skills ui-widget-content ui-state-defadivt ui-helper-clearfix"><i
+                            class="ui-icon ui-icon-jquery" style="aagn-items: left; font-size: 1em;">icon</i> jQuery</a>
+                    <a class="skills"><i class="fab fa-bootstrap"></i> Bootstrap</a>
+                    <a class="skills"><i class="fab fa-node-js"></i> Node.js</a>
+                    <a class="skills"><i class="fab fa-github-square"></i> GitHub</a>
+                </div>
+            </div>
         </section>
 
         <section id="portfolio">
             <h1 class="main-headers">Portfolio</h1>
-<!-- Added this <div to contain the work in a flex wrap, in order to make it responsive -->
             <div class="container work">
-<!-- Added target to allow the browser to open link in a new tab -->
-<!-- Created Code-Box Class to enable a hoover glow to any box with that class -->
-                <a href="https://israelmrios.github.io/Movie-Finder/" href="https://github.com/israelmrios/Movie-Finder.git" target="_blank" class="items large-img code-box">
-                    <figure>
-                        <h2 class="container-h2">Movie Finder Application</h2>
-                    </figure>
-                </a>
-<!-- Added # as a placeholder to easily add the address for future projects -->
-                <a href="https://israelmrios.github.io/Weather-Dashboard/" href="https://github.com/israelmrios/Weather-Dashboard.git" target="_blank" class="items project-2 code-box">
-                    <figure>
-                        <h2 class="container-h2">Weather Dashboard Application</h2>
-                    </figure>
-                </a>
-                <a href="https://israelmrios.github.io/Work-Day-Scheduler/" href="https://github.com/israelmrios/Work-Day-Scheduler.git" target="_blank" class="items project-3 code-box">
-                    <figure>
-                        <h2 class="container-h2">Work Day Scheduler Application</h2>
-                    </figure>
-                </a>
-            </div>            
+                <div class="items large-img">
+                    <div class="app-links">
+                        <a href="https://israelmrios.github.io/Movie-Finder/" class="deployed-version code-box"
+                            target="_blank">Movie Finder</a>
+                        <a href="https://github.com/israelmrios/Movie-Finder.git" class="github-version code-box"
+                            target="_blank">GitHub Repository</a>
+                    </div>
+                </div>
+                <div class="items project-2">
+                    <div class="app-links">
+                        <a href="https://israelmrios.github.io/Weather-Dashboard/" class="deployed-version code-box"
+                            target="_blank">Weather Dashboard</a>
+                        <a href="https://github.com/israelmrios/Weather-Dashboard.git" class="github-version code-box"
+                            target="_blank">GitHub Repository</a>
+                    </div>
+                </div>
+                <div class="items project-3">
+                    <div class="app-links">
+                        <a href="https://israelmrios.github.io/Work-Day-Scheduler/" class="deployed-version code-box"
+                            target="_blank">Work Day Scheduler</a>
+                        <a href="https://github.com/israelmrios/Work-Day-Scheduler.git" class="github-version code-box"
+                            target="_blank">GitHub Repository</a>
+                    </div>
+                </div>
+            </div>
         </section>
-        
+
         <section id="contact">
             <h1 class="main-headers">Contact</h1>
             <div class="contact-div">
@@ -106,8 +121,10 @@
                     <a class="code">951.496.2702</a>
                 </div>
                 <div class="info-style">
-                    <a href="https://www.linkedin.com/in/israel-m-rios-93a81a38/" target="_blank" class="code"><i class="fab fa-linkedin-in fa-3x"></i></a>
-                    <a href="https://github.com/israelmrios" target="_blank" class="code"><i class="fab fa-github fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/israel-m-rios-93a81a38/" target="_blank" class="code"><i
+                            class="fab fa-linkedin-in fa-3x"></i></a>
+                    <a href="https://github.com/israelmrios" target="_blank" class="code"><i
+                            class="fab fa-github fa-3x"></i></a>
                     <a href="./assets/images/Israel Rios' Resume.pdf" target="_blank" class="code">
                         <span class="resume">
                             <i class="far fa-file-pdf fa-2x"></i>
@@ -115,7 +132,7 @@
                         </span>
                     </a>
                 </div>
-            </div>            
+            </div>
         </section>
     </main>
 
