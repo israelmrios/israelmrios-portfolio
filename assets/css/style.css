@@ -8,7 +8,6 @@
     /* outline-offset: 2px; */
 }
 
-/* I used set variable colors to keep the theme consistent */
 :root {
     --portfolio-black: #050505;
     --charcoal-gray: #3b3531;
@@ -16,7 +15,6 @@
     --portfolio-gray: #A1A1A1;
 }
 
-/* Used the html selector to set the pages standard rem size */
 html {
     font-size: 1rem;
 }
@@ -33,20 +31,16 @@ picture {
     display: flex;
 }
 
-#icon {
-    height: 38px;
-    float: left;
-    margin-right: 10px;
-}
-
 body {
     font-size: 1rem;
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../img/ep_naturalblack.png");
+    line-height: 1.5;
 }
 
+/* Header and Nav */
 .header {
     padding: 20px;
     font-family: 'Francois One', sans-serif;
@@ -56,6 +50,12 @@ body {
     display: inline-block;
     font-size: 2.5rem;
     color: var(--portfolio-white);
+}
+
+#icon {
+    height: 38px;
+    float: left;
+    margin-right: 10px;
 }
 
 .header nav {
@@ -80,13 +80,25 @@ a {
     text-decoration: none;
 }
 
-/* Used Hover Pseudocode to enable a glow effect when hovering over the particular effect */
 .code:hover {
     text-shadow: 2px 2px 5px var(--portfolio-gray);
 }
 
-.code-box:hover {
-    box-shadow: 4px 4px 10px var(--portfolio-gray);
+main {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1.75rem;
+}
+
+/* Hero Styles */
+.self-image-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 80vh;
+    gap: 20px;
 }
 
 .self-image {
@@ -95,15 +107,6 @@ a {
     background-image: url("../img/self-image-fed-2.png");
     background-size: cover;
     background-position: center;
-}
-
-.self-image-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    height: 80vh;
-    gap: 20px;
 }
 
 .title-headers-1 {
@@ -121,65 +124,20 @@ a {
     color: var(--portfolio-white);
     font-family: 'Open Sans', sans-serif;
     font-variant: small-caps;
+    line-height: 0;
 }
 
-.title-headers-3 {
+/* Currently not using this selector */
+/* .title-headers-3 {
     font-size: 160%;
     font-weight: 300;
     text-align: center;
     color: var(--portfolio-gray);
     font-family: 'Open Sans', sans-serif;
     font-variant: small-caps;
-}
-
-main {
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 1.75rem;
-}
-
-main section p {
-    font-family: 'Open Sans', sans-serif;
-    color: var(--portfolio-white);
-    font-weight: normal;
-    text-align: center;
-}
-
-/* Used this class to style the Tech skills which was a flex and switched to grid */
-.completed {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: 2.5rem;
-    margin: 20px 0;
-    padding: 5px 20px;
-}
-
-.skills-grid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(4, 1fr);
-    padding-block: 5rem;
-    justify-items: center;
-    
-}
-
-.custom-icon {
-    height: 1.5rem;
-    color: var(--portfolio-white);
-    padding-right: .5rem;
-}
-
-/* .skills-grid div {
-    align-items: center;
-    align-content: center;
 } */
 
-.skills {
-    color: var(--portfolio-white);
-}
-
+/* About Styles */
 .main-headers {
     font-size: 3.75rem;
     text-align: left;
@@ -196,9 +154,35 @@ main section p {
     flex-wrap: wrap;
     flex-direction: row;
     margin: 20px 0;
-    padding: 5px;
+    padding: 5px; 
 }
 
+main section p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--portfolio-white);
+    font-weight: normal;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding-block: 5rem;
+    justify-items: center;
+}
+
+.skills {
+    color: var(--portfolio-white);
+}
+
+.custom-icon {
+    height: 1.5rem;
+    color: var(--portfolio-white);
+    padding-right: .5rem;
+}
+
+/* Project Container Styles */
 .items {
     display: flex;
     align-content: flex-end;
@@ -211,12 +195,16 @@ main section p {
     margin: 14px;
 }
 
-/* Used First-Child Pseudocode to enable the first image to be bigger */
+.code-box:hover {
+    box-shadow: 4px 4px 10px var(--portfolio-gray);
+}
+
 .items:first-child {
     min-height: 450px;
     flex-basis: 100%;
 }
 
+/* Project Images */
 .large-img {
     background-image: url("../img/NFT-Generator-App.gif");
     background-size: cover;
@@ -255,6 +243,7 @@ main section p {
     height: 350px;
 }
 
+/* Project Buttons/Links */
 .app-links {
     display: flex;
     flex-direction: row;
@@ -288,6 +277,7 @@ main section p {
     padding: 5px;
 }
 
+/* Contact Info */
 .info-style {
     display: flex;
     flex-wrap: wrap;
@@ -315,8 +305,7 @@ footer {
     text-align: center;
 }
 
-/* Used this Media Queries to make the Self-Image smaller when the screen drops below 990px or 768px */
-
+/* Media Queries */
 @media (max-width: 990px) {
     .self-image-cont {
         flex-direction: column;

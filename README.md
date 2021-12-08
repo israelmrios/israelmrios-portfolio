@@ -2,7 +2,10 @@
 
 ![I am GitHub Readme Generator's creator](./assets/img/self-image-banner.png)
 
-Software Engineer with a Certificate in Full-Stack Development and a Bachelor's Degree in Information Management. Recent experience in JavaScript, CSS, Node.js, React.js, and responsive web design. Also have experience and knowledge in business administration & information systems. Detail oriented and hard working teammates focused on completing projects on time and above expectation. Applied aspects of UX and agile development in a recent project where I collaborated in a team of four to develop a single-page app that helps users find movies on different streaming services and provides a description of that movie. I am looking forward to making a difference utilizing my skill sets and experience in a full application lifecycle.
+Software Engineer with Certificate in Full-Stack Web Development from UCR Boot Camp and a Bachelor's Degree in Information Management. Recent experience in JavaScript, CSS, Node.js, React.js, MySQL, API Interaction and responsive web design. Detail oriented and hardworking teammate, focused on completing projects on time and above expectation.  I love to keep learning, continue challenging myself, and do interesting things that matter.
+
+I applied aspects of MVC paradigm, Handlebars.js and Sequelize in a recent project where I collaborated in a team of three to develop an application that generates NFTs. It takes an image URL attaches metadata in JSON format and uses an NPM Package to create the NFT on the Ethereum Block Chain. I am a fast learner, able to pick up new skills and eager to utilize my skill sets and experience in a full application lifecycle.
+
 
 ## Examples of Work
 
