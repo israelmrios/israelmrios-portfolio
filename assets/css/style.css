@@ -44,7 +44,7 @@ body {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/ep_naturalblack.png");
+    background-image: url("../img/ep_naturalblack.png");
 }
 
 .header {
@@ -92,7 +92,7 @@ a {
 .self-image {
     height: 30rem;
     width: 30rem;
-    background-image: url("../images/self-image-fed-2.png");
+    background-image: url("../img/self-image-fed-2.png");
     background-size: cover;
     background-position: center;
 }
@@ -218,13 +218,13 @@ main section p {
 }
 
 .large-img {
-    background-image: url("../images/NFT-Generator-App.gif");
+    background-image: url("../img/NFT-Generator-App.gif");
     background-size: cover;
     background-position: top;
 }
 
 .project-4 {
-    background-image: url("../images/Coding-Tech-Blog-App.png");
+    background-image: url("../img/Coding-Tech-Blog-App.png");
     background-size: cover;
     background-position: top;
     width: 50%;
@@ -232,7 +232,7 @@ main section p {
 }
 
 .project-3 {
-    background-image: url("../images/Movie-Finder-App.png");
+    background-image: url("../img/Movie-Finder-App.png");
     background-size: cover;
     background-position: top;
     width: 50%;
@@ -240,7 +240,7 @@ main section p {
 }
 
 .project-2 {
-    background-image: url("../images/Weather-Dashboard-App.png");
+    background-image: url("../img/Weather-Dashboard-App.png");
     background-size: cover;
     background-position: top;
     width: 50%;
@@ -248,7 +248,7 @@ main section p {
 }
 
 .project-1 {
-    background-image: url("../images/Work-Day-Scheduler-App.png");
+    background-image: url("../img/Work-Day-Scheduler-App.png");
     background-size: cover;
     background-position: top;
     width: 50%;
