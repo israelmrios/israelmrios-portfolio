@@ -1,24 +1,24 @@
 # Israel Rios' GitHub Portfolio
 
-![I am GitHub Readme Generator's creator](./assets/images/self-image-banner.png)
+![I am GitHub Readme Generator's creator](./assets/img/self-image-banner.png)
 
 Software Engineer with a Certificate in Full-Stack Development and a Bachelor's Degree in Information Management. Recent experience in JavaScript, CSS, Node.js, React.js, and responsive web design. Also have experience and knowledge in business administration & information systems. Detail oriented and hard working teammates focused on completing projects on time and above expectation. Applied aspects of UX and agile development in a recent project where I collaborated in a team of four to develop a single-page app that helps users find movies on different streaming services and provides a description of that movie. I am looking forward to making a difference utilizing my skill sets and experience in a full application lifecycle.
 
 ## Examples of Work
 
-[![NFT Generator Demo](./assets/images/NFT-Generator-App.gif)](https://github.com/anun05/nft-generator.git)
+[![NFT Generator Demo](./assets/img/NFT-Generator-App.gif)](https://github.com/anun05/nft-generator.git)
 > **Note**: You can find the NFT Generator Application here&mdash; https://github.com/anun05/nft-generator.git
 
-[![Coding Tech Blog Application](./assets/images/Coding-Tech-Blog-App.png)](https://github.com/israelmrios/Coding-Tech-Blog.git)
+[![Coding Tech Blog Application](./assets/img/Coding-Tech-Blog-App.png)](https://github.com/israelmrios/Coding-Tech-Blog.git)
 > **Note**: You can find the Coding Tech Blog Application here&mdash; https://github.com/israelmrios/Coding-Tech-Blog.git
 
-[![Movie Finder Demo](./assets/images/Movie-Finder-App.png)](https://israelmrios.github.io/Movie-Finder/)
+[![Movie Finder Demo](./assets/img/Movie-Finder-App.png)](https://israelmrios.github.io/Movie-Finder/)
 > **Note**: You can find the Movie Finder Application here&mdash; https://israelmrios.github.io/Movie-Finder/
 
-[![Weather Dashboard Application](./assets/images/weather-dashboard-demo.gif)](https://israelmrios.github.io/Weather-Dashboard/)
+[![Weather Dashboard Application](./assets/img/weather-dashboard-demo.gif)](https://israelmrios.github.io/Weather-Dashboard/)
 > **Note**: You can find the Weather Dashboard Application here&mdash; https://israelmrios.github.io/Weather-Dashboard/
 
-[![Work Day Scheduler Application](./assets/images/Work-Day-Scheduler-Demo.gif)](https://israelmrios.github.io/Work-Day-Scheduler/)
+[![Work Day Scheduler Application](./assets/img/Work-Day-Scheduler-Demo.gif)](https://israelmrios.github.io/Work-Day-Scheduler/)
 > **Note**: You can find the Work Day Scheduler Application here&mdash; https://israelmrios.github.io/Work-Day-Scheduler/
 
 ## Skills
