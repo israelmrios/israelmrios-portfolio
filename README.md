@@ -6,6 +6,12 @@ Software Engineer with a Certificate in Full-Stack Development and a Bachelor's 
 
 ## Examples of Work
 
+[![NFT Generator Demo](./assets/images/NFT-Generator-App.gif)](https://github.com/anun05/nft-generator.git)
+> **Note**: You can find the NFT Generator Application here&mdash; https://github.com/anun05/nft-generator.git
+
+[![Coding Tech Blog Application](./assets/images/Coding-Tech-Blog-App.png)](https://github.com/israelmrios/Coding-Tech-Blog.git)
+> **Note**: You can find the Coding Tech Blog Application here&mdash; https://github.com/israelmrios/Coding-Tech-Blog.git
+
 [![Movie Finder Demo](./assets/images/Movie-Finder-App.png)](https://israelmrios.github.io/Movie-Finder/)
 > **Note**: You can find the Movie Finder Application here&mdash; https://israelmrios.github.io/Movie-Finder/
 
@@ -19,12 +25,13 @@ Software Engineer with a Certificate in Full-Stack Development and a Bachelor's 
 
 ```
 * JavaScript
+* jQuery
 * HTML
 * CSS
-* jQuery
 * Bootstrap
 * Node.js
-* GitHub
+* MySQL
+* mongoDB
 ```
 
 ## Contact Me
@@ -39,5 +46,5 @@ Software Engineer with a Certificate in Full-Stack Development and a Bachelor's 
 * [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 
 ## License
-MIT License
-Copyright (c) [2021] [Israel M. Rios]
+Copyright (c) 2021 Israel M Rios.
+Licensed under the [MIT License](LICENSE).
